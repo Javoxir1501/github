@@ -5,7 +5,7 @@ const app = express()
 const port = 3030 || process.env.PORT
 
 app.get('/', (req, res) =>{
-    res.send('Hello World!')
+    res.send('second')
 })
 
 
